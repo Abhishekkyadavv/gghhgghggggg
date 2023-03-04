@@ -58,7 +58,7 @@ const Posts = () => {
             const response = await axios.post('https://dummyjson.com/posts', ApiData);
           console.log(response.data);
         } catch (error) {
-          console.error(error);
+          console.error(error) ;
         }
       };
       
